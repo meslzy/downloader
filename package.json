@@ -1,0 +1,43 @@
+{
+  "name": "@meslzy/downloader",
+  "version": "0.0.1-dev",
+  "author": {
+    "name": "meslzy",
+    "email": "i@meslzy.com",
+    "url": "https://www.meslzy.com/"
+  },
+  "description": "file downloader for nodejs",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc --build"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.34",
+    "tiny-typed-emitter": "^2.1.0",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^2.1.1",
+    "@types/node": "^17.0.8",
+    "@types/valid-url": "^1.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "eslint": "^8.6.0",
+    "typed-emitter": "^1.4.0",
+    "typescript": "^4.4.3"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meslzy/typescript-module-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meslzy/typescript-module-boilerplate/issues"
+  },
+  "homepage": "https://github.com/meslzy/typescript-module-boilerplate#readme",
+  "license": "ISC"
+}
